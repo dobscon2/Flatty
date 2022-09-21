@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#508BFD">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="216dp"
+                android:layout_height="161dp"
+                android:layout_marginStart="98dp"
+                android:layout_marginEnd="97dp"
+                android:background="#00FFFFFF"
+                android:contentDescription="@string/house_image"
+                android:src="@drawable/ic_baseline_house_24"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/TextFirstName"
+                android:layout_width="216dp"
+                android:layout_height="43dp"
+                android:layout_marginStart="97dp"
+                android:layout_marginTop="283dp"
+                android:layout_marginEnd="98dp"
+                android:background="#FFFFFF"
+                android:backgroundTint="#FFFFFF"
+                android:ems="10"
+                android:fadingEdge="none"
+                android:fontFamily="@font/cantora_one"
+                android:hint="@string/first_name"
+                android:importantForAutofill="no"
+                android:inputType="textPersonName"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:textColor="#000000"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="214dp"
+                android:layout_height="71dp"
+                android:layout_marginStart="99dp"
+                android:layout_marginTop="158dp"
+                android:layout_marginEnd="98dp"
+                android:fontFamily="@font/cantora_one"
+                android:text="@string/flatty"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="50sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textSignupMessage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="144dp"
+                android:layout_marginTop="229dp"
+                android:layout_marginEnd="142dp"
+                android:fontFamily="@font/cantora_one"
+                android:text="@string/register_for_free"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <CheckBox
+                android:id="@+id/CheckBoxTermsConditions"
+                android:layout_width="282dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="65dp"
+                android:layout_marginTop="525dp"
+                android:layout_marginEnd="64dp"
+                android:background="#FFFFFF"
+                android:fontFamily="@font/cantora_one"
+                android:text="@string/i_have_read_and_agree_to_flatty_terms_and_conditions"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/TextLastName"
+                android:layout_width="216dp"
+                android:layout_height="43dp"
+                android:layout_marginStart="98dp"
+                android:layout_marginTop="344dp"
+                android:layout_marginEnd="97dp"
+                android:autofillHints=""
+                android:background="#FFFFFF"
+                android:ems="10"
+                android:fontFamily="@font/cantora_one"
+                android:hint="@string/surname"
+                android:inputType="textPersonName"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/ButtonCancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="75dp"
+                android:layout_marginTop="592dp"
+                android:layout_marginEnd="247dp"
+                android:fontFamily="@font/cantora_one"
+                android:text="@android:string/cancel"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/TextPassword"
+                android:layout_width="216dp"
+                android:layout_height="36dp"
+                android:layout_marginStart="98dp"
+                android:layout_marginTop="469dp"
+                android:layout_marginEnd="97dp"
+                android:background="#FFFFFF"
+                android:ems="10"
+                android:fontFamily="@font/cantora_one"
+                android:hint="@string/password"
+                android:importantForAutofill="no"
+                android:inputType="textPassword"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/TextEmail"
+                android:layout_width="216dp"
+                android:layout_height="43dp"
+                android:layout_marginStart="98dp"
+                android:layout_marginTop="406dp"
+                android:layout_marginEnd="97dp"
+                android:background="#FFFFFF"
+                android:ems="10"
+                android:fontFamily="@font/cantora_one"
+                android:hint="@string/email_address"
+                android:importantForAutofill="no"
+                android:inputType="textEmailAddress"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/ButtonRegister"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="240dp"
+                android:layout_marginTop="592dp"
+                android:layout_marginEnd="79dp"
+                android:background="#FFFFFF"
+                android:fontFamily="@font/cantora_one"
+                android:onClick="update_profile"
+                android:text="@string/sign_up"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

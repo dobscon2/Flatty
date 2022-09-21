@@ -1,0 +1,100 @@
+<resources>
+    <string name="app_name">Flatty</string>
+    <string name="flatty">Flatty</string>
+    <string name="surname">Surname</string>
+    <string name="email_address">Email Address</string>
+    <string name="first_name">First Name</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="password">Password</string>
+    <string name="i_have_read_and_agree_to_flatty_terms_and_conditions">I have read and agree to Flatty terms and conditions.</string>
+    <string name="house_image">House Image</string>
+    <string name="register_for_free">Register for free!</string>
+    <string name="button_for_settings">Button for settings</string>
+    <string name="button_for_profile">Button for profile</string>
+    <string name="button_for_home">Button for home</string>
+    <string name="profile_image">Profile image</string>
+    <string name="display_degree">Degree</string>
+    <string name="name_here">Name Here</string>
+    <string name="degree">Degree</string>
+    <string name="name1">Name</string>
+    <string name="age">Age</string>
+    <string name="date_of_birth">Date of Birth</string>
+    <string name="my_profile">My Profile</string>
+    <string name="budget">Budget</string>
+    <string name="additional_information">Additional Information</string>
+    <string name="login">Login:</string>
+    <string name="create_account">Create Account</string>
+    <string name="new_to_flatty">New to Flatty?</string>
+    <string name="login_button">Login</string>
+    <string name="name">Name</string>
+    <string name="hobbies_interests">Hobbies/Interests</string>
+    <string name="hobbiesInterests">Hobbies/Interests</string>
+    <string name="save_details">Save Details</string>
+    <string name="button_for_matches">button_for_matches</string>
+    <string name="update_profile">Update Profile</string>
+    <string name="my_matches">My Matches</string>
+    <string name="budget1">Budget</string>
+    <string name="dietary1">Dietary</string>
+    <string name="bio">Bio</string>
+    <string name="dietary2">Dietary</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="deactivate">Deactivate</string>
+    <string name="dietaryBox">dietary</string>
+    <string name="name_of_match">Name of Match</string>
+    <string name="my_socials">my socials</string>
+    <string name="sample_image">sample_image</string>
+    <string name="sample_image2">sample_image2</string>
+    <string name="swipe_right_match">swipe_right_match</string>
+    <string name="swipe_left_nomatch">swipe_left_noMatch</string>
+    <string name="change_image">Change Image</string>
+    <string name="dietary">Dietary</string>
+    <string name="interests">Interests</string>
+    <string name="birthdate">Birthdate</string>
+    <string name="your_name">Your Name</string>
+    <string-array name="degrees">
+        <item>Degree</item>
+        <item>Accountancy and Finance</item>
+        <item>Arts</item>
+        <item>Biomedical Sciences</item>
+        <item>Chemistry</item>
+        <item>College of Education</item>
+        <item>Computer Science</item>
+        <item>Dentistry</item>
+        <item>Economics</item>
+        <item>Geography</item>
+        <item>Geology</item>
+        <item>Information Science</item>
+        <item>Law</item>
+        <item>Marketing</item>
+        <item>Mathematics and Statistics</item>
+        <item>Medical School</item>
+        <item>Performing Arts</item>
+        <item>Pharmacy</item>
+        <item>Physics</item>
+        <item>Physiotherapy</item>
+        <item>Social Science</item>
+        <item>Surveying</item>
+        <item>Tourism</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="diets">
+        <item>Dietary</item>
+        <item>Dairy free</item>
+        <item>Gluten free</item>
+        <item>None</item>
+        <item>Pescatarian</item>
+        <item>Vegan</item>
+        <item>Vegetarian</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="budgets">
+        <item>Budget</item>
+        <item>Less than $140</item>
+        <item>$140 to $155</item>
+        <item>$155 to $170</item>
+        <item>$170 to $185</item>
+        <item>$185 to $200</item>
+        <item>More than $200</item>
+        <item>Any</item>
+    </string-array>
+</resources>

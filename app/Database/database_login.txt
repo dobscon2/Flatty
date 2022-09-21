@@ -1,0 +1,21 @@
+Server address: 13.239.27.21
+Database: FlattyApp
+
+Login accounts:
+_____________________________________________________________________________
+
+Username: admin
+Password: DanielTheLecturer
+
+Account Privileges: Limited full access to database server
+Account use: Manage database backend via JDBC protocol
+
+_____________________________________________________________________________
+
+Username: root
+Password: FlattyApp
+
+Account Privileges: Full unlimited access to database and MySQL server
+Account use: Manage database backend via SSH - Must SSH into Ubuntu Server and connect to MySQL database through localhost
+
+_____________________________________________________________________________

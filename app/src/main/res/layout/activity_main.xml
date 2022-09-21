@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/coordinatorLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#508bfd"
+        tools:context=".MainActivity">
+
+        <ImageView
+            android:id="@+id/logoFlatty"
+            android:layout_width="71dp"
+            android:layout_height="66dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="239dp"
+            android:background="#00FFFFFF"
+            android:contentDescription="@string/house_image"
+            android:src="@drawable/ic_baseline_house_24"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/Flatty"
+            android:layout_width="150dp"
+            android:layout_height="68dp"
+            android:layout_marginStart="157dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="104dp"
+            android:fontFamily="@font/cantora_one"
+            android:text="@string/flatty"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="50sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/cardView"
+            android:layout_width="296dp"
+            android:layout_height="564dp"
+            android:layout_marginStart="56dp"
+            android:layout_marginTop="56dp"
+            android:layout_marginEnd="59dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/budgetLabel"
+                android:layout_width="59dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="186dp"
+                android:layout_marginTop="376dp"
+                android:layout_marginEnd="51dp"
+                android:fontFamily="@font/cantora_one"
+                android:text="@string/budget"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/degreeLabel"
+                android:layout_width="59dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="39dp"
+                android:layout_marginTop="376dp"
+                android:layout_marginEnd="198dp"
+                android:fontFamily="@font/cantora_one"
+                android:text="@string/degree"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/userImage"
+                android:layout_width="251dp"
+                android:layout_height="216dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="28dp"
+                android:layout_marginEnd="25dp"
+                android:src="@drawable/avatar"
+                android:contentDescription="@string/profile_image"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textDisplayDegree"
+                android:layout_width="126dp"
+                android:layout_height="46dp"
+                android:layout_marginStart="31dp"
+                android:layout_marginTop="400dp"
+                android:layout_marginEnd="182dp"
+                android:fontFamily="@font/cantora_one"
+                android:text="@string/degree"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.661"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textDisplayBudget"
+                android:layout_width="160dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="172dp"
+                android:layout_marginTop="396dp"
+                android:layout_marginEnd="41dp"
+                android:fontFamily="@font/cantora_one"
+                android:text="@string/budget"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textDisplayName"
+                android:layout_width="220dp"
+                android:layout_height="42dp"
+                android:layout_marginStart="104dp"
+                android:layout_marginTop="252dp"
+                android:layout_marginEnd="105dp"
+                android:fontFamily="@font/cantora_one"
+                android:text="@string/name"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textDisplayAge"
+                android:layout_width="72dp"
+                android:layout_height="38dp"
+                android:layout_marginStart="39dp"
+                android:layout_marginTop="332dp"
+                android:layout_marginEnd="204dp"
+                android:fontFamily="@font/cantora_one"
+                android:text="@string/age"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textDisplayDietary"
+                android:layout_width="165dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="168dp"
+                android:layout_marginTop="332dp"
+                android:layout_marginEnd="40dp"
+                android:fontFamily="@font/cantora_one"
+                android:text="@string/dietary1"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/userBio"
+                android:layout_width="292dp"
+                android:layout_height="108dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="452dp"
+                android:layout_marginEnd="1dp"
+                android:background="#FFFFFF"
+                android:backgroundTint="#FFFFFF"
+                android:ems="10"
+                android:fadingEdge="none"
+                android:fontFamily="@font/cantora_one"
+                android:importantForAutofill="no"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:textColor="#000000"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/ageLabel"
+                android:layout_width="31dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="312dp"
+                android:layout_marginEnd="212dp"
+                android:fontFamily="@font/cantora_one"
+                android:text="@string/age"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/dietLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="139dp"
+                android:layout_marginTop="312dp"
+                android:layout_marginEnd="24dp"
+                android:fontFamily="@font/cantora_one"
+                android:text="@string/dietary"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.559"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floatingActionButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="327dp"
+            android:layout_marginTop="301dp"
+            android:layout_marginEnd="28dp"
+            android:clickable="true"
+            android:contentDescription="@string/swipe_right_match"
+            android:focusable="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:rippleColor="#FFFFFF"
+            app:srcCompat="@android:drawable/checkbox_on_background" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floatingActionButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="301dp"
+            android:layout_marginEnd="333dp"
+            android:clickable="true"
+            android:contentDescription="@string/swipe_left_nomatch"
+            android:focusable="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@android:drawable/btn_dialog" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/bottomNavigationView"
+            android:layout_width="409dp"
+            android:layout_height="93dp"
+            android:layout_marginTop="638dp"
+            android:layout_marginEnd="2dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageButton
+                android:id="@+id/ButtonSettings"
+                android:layout_width="80dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="316dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="13dp"
+                android:backgroundTint="#CCCDCD"
+                android:contentDescription="@string/button_for_settings"
+                android:src="@android:drawable/ic_menu_preferences"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageButton
+                android:id="@+id/ButtonProfile"
+                android:layout_width="80dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="216dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="113dp"
+                android:contentDescription="@string/button_for_profile"
+                android:src="@android:drawable/ic_menu_my_calendar"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageButton
+                android:id="@+id/ButtonHome"
+                android:layout_width="80dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="313dp"
+                android:contentDescription="@string/button_for_home"
+                android:src="@drawable/ic_baseline_house_24"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageButton
+                android:id="@+id/ButtonMatches"
+                android:layout_width="79dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="117dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="213dp"
+                android:contentDescription="@string/button_for_matches"
+                android:src="@android:drawable/btn_star"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_begin="365dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

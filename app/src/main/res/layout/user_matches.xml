@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/coordinatorLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#508bfd"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/Flatty"
+            android:layout_width="150dp"
+            android:layout_height="68dp"
+            android:layout_marginStart="157dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="104dp"
+            android:fontFamily="@font/cantora_one"
+            android:text="@string/flatty"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="50sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/logoFlatty"
+            android:layout_width="71dp"
+            android:layout_height="66dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="240dp"
+            android:background="#00FFFFFF"
+            android:contentDescription="@string/house_image"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:src="@drawable/ic_baseline_house_24" />
+
+        <TextView
+            android:id="@+id/myMatchesTitle"
+            android:layout_width="229dp"
+            android:layout_height="57dp"
+            android:layout_marginStart="124dp"
+            android:layout_marginTop="104dp"
+            android:layout_marginEnd="124dp"
+            android:fontFamily="@font/cantora_one"
+            android:text="My Matches"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+            android:id="@+id/matches_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/myMatchesTitle"></LinearLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/bottomNavigationView"
+            android:layout_width="413dp"
+            android:layout_height="104dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <ImageButton
+                android:id="@+id/ButtonSettings"
+                android:layout_width="80dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="316dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="17dp"
+                android:backgroundTint="#CCCDCD"
+                android:contentDescription="@string/button_for_settings"
+                android:src="@android:drawable/ic_menu_preferences"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageButton
+                android:id="@+id/ButtonProfile"
+                android:layout_width="80dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="216dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="117dp"
+                android:contentDescription="@string/button_for_profile"
+                android:src="@android:drawable/ic_menu_my_calendar"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageButton
+                android:id="@+id/ButtonHome"
+                android:layout_width="80dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="317dp"
+                android:contentDescription="@string/button_for_home"
+                android:src="@drawable/ic_baseline_house_24"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageButton
+                android:id="@+id/ButtonMatches"
+                android:layout_width="79dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="116dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="218dp"
+                android:contentDescription="@string/button_for_matches"
+                android:src="@android:drawable/btn_star"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
